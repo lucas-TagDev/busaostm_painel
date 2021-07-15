@@ -7,7 +7,7 @@
                     
                     <div class="card cascade narrower">
                       <div class="view cascade gradient-card-header blue-gradient narrower mx-3 py-2  mb-3 d-flex justify-content-between align-items-center">
-                        <h2 class="white-text mx-auto">Real-time Bus Data</h2>
+                        <h2 class="white-text mx-auto">Informação de Ônibus em Tempo Real</h2>
                       </div>
                       <!--/Card image-->
                         <div class="px-4">
