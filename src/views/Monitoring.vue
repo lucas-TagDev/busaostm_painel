@@ -28,7 +28,7 @@
                                       v-model="filter"
                                       type="search"
                                       id="filterInput"
-                                      placeholder="Escreva para Pesquisar"
+                                      placeholder="Pesquisar"
                                     ></b-form-input>
                                     <b-input-group-append>
                                       <b-button class="mx-2 px-2" :disabled="!filter" @click="filter = ''">Limpar</b-button>

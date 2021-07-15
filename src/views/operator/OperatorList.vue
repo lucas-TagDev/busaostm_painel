@@ -3,9 +3,9 @@
 
   <div class="card cascade narrower">
     <div class="view cascade gradient-card-header blue-gradient narrower mx-3 py-2  mb-3 d-flex justify-content-between align-items-center">
-      <h2 class="white-text mx-auto">Operator Data</h2>
+      <h2 class="white-text mx-auto">Motoristas</h2>
       <div>
-          <b-button class="add-btn mx-3" variant="success" v-b-modal.modal-add-operator>Add Operator</b-button>
+          <b-button class="add-btn mx-3" variant="success" v-b-modal.modal-add-operator>Adicionar Motorista</b-button>
       </div>
     </div>
     <!--/Card image-->
@@ -15,7 +15,7 @@
             </b-col>
             <b-col  >
             <b-form-group
-                label="Filter"
+                label="Filtro"
                 label-cols-sm="1"
                 label-align-sm="right"
                 label-size="sm"
@@ -27,10 +27,10 @@
                     v-model="filter"
                     type="search"
                     id="filterInput"
-                    placeholder="Search"
+                    placeholder="Pesquisar"
                   ></b-form-input>
                   <b-input-group-append>
-                    <b-button class="mx-2 px-2" :disabled="!filter" @click="filter = ''">Clear</b-button>
+                    <b-button class="mx-2 px-2" :disabled="!filter" @click="filter = ''">Limpar</b-button>
                   </b-input-group-append>
                 </b-input-group>
               </b-form-group>
