@@ -16,7 +16,7 @@
                               </b-col>
                               <b-col  >
                               <b-form-group
-                                  label="Filter"
+                                  label="Filtro"
                                   label-cols-sm="1"
                                   label-align-sm="right"
                                   label-size="sm"
@@ -28,10 +28,10 @@
                                       v-model="filter"
                                       type="search"
                                       id="filterInput"
-                                      placeholder="Type to Search"
+                                      placeholder="Escreva para Pesquisar"
                                     ></b-form-input>
                                     <b-input-group-append>
-                                      <b-button class="mx-2 px-2" :disabled="!filter" @click="filter = ''">Clear</b-button>
+                                      <b-button class="mx-2 px-2" :disabled="!filter" @click="filter = ''">Limpar</b-button>
                                     </b-input-group-append>
                                   </b-input-group>
                                 </b-form-group>
