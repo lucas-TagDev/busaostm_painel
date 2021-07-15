@@ -9,7 +9,7 @@
             <div class="sidebar-content">
                 <!-- sidebar-brand  -->
                 <div class="sidebar-item sidebar-brand">
-                    <a href="#">Numpakbis Admin</a>
+                    <a href="#">Administração do Sistema de Ônibus</a>
                     <div id="close-sidebar" @click="closeMenu">
                         <i class="fas fa-times"></i>
                     </div>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="user-info">
                         <span class="user-name">
-                            <strong>Welcome</strong>
+                            <strong>Bem Vindo</strong>
                         </span>
                         <span class="user-role"> {{email}} </span>
                         <span class="user-status">
@@ -53,13 +53,13 @@
                         <li>
                             <router-link :to="{ name: 'Monitoring'}">
                                 <i class="fa fa-chart-line"></i>
-                                <span>Monitoring</span>
+                                <span>Monitoramento</span>
                             </router-link>
                         </li>
                         <li>
                             <router-link :to="{ name: 'Report'}">
                                 <i class="fa fa-table"></i>
-                                <span>Report</span>
+                                <span>Relatórios</span>
                             </router-link>
                         </li>
                         <li>
@@ -71,38 +71,38 @@
                         <li>
                             <router-link to="/home/plat">
                                 <i class="fas fa-bus-alt"></i>
-                                <span>Plat Nomor Bus</span>
+                                <span>Placa do Ônibus</span>
                             </router-link>
                         </li>
                         <li>
                             <router-link to="/home/halte" exact-active-class="">
                                 <i class="fas fa-map-marked-alt"></i>
-                                <span>Halte Bus</span>
+                                <span>Pontos de Ônibus</span>
                             </router-link>
                         </li>
                         <li>
                             <router-link to="/home/rute">
                                 <i class="fas fa-route"></i>
-                                <span>Rute Bus</span>
+                                <span>Rota do Ônibus</span>
                             </router-link>
                         </li>
 
                         <li>
                             <router-link to="/home/member">
                                 <i class="fa fa-user"></i>
-                                <span>Member</span>
+                                <span>Usuários</span>
                             </router-link>
                         </li>
                         <li>
                             <router-link to="/home/operator">
                                 <i class="fas fa-user-tie"></i>
-                                <span>Operator</span>
+                                <span>Motoristas</span>
                             </router-link>
                         </li>     
                         <li>
                             <a href="#" @click="logout">
                                 <i class="fa fa-power-off"></i>
-                                <span>Logout</span>
+                                <span>Sair</span>
                             </a>
                         </li>
                     </ul>
