@@ -26,8 +26,8 @@
             <b-col>
                  <b-form-group
                 label="Date"
-                label-cols-sm="1"
-                label-align-sm="left"
+                label-cols-sm="2"
+                label-align-sm="right"
                 label-size="sm"
                 label-for="dateInput"
                 class="mb-10"
@@ -46,7 +46,7 @@
             <b-col  >
             <b-form-group
                 label="Filter"
-                label-cols-sm="1"
+                label-cols-sm="3"
                 label-align-sm="right"
                 label-size="sm"
                 label-for="filterInput"
