@@ -5,50 +5,50 @@
        <img width="200px" height="200px" :src="require('@/assets/numpakbis.png')">
      <b-card header-tag="header" footer-tag="footer">
       <template v-slot:header>
-        <h6 class="mb-0">Numpak Bis Admin</h6>
+        <h6 class="mb-0">Busão STM</h6>
       </template>
       <b-card-text>
         <b-row>
           <b-col cols="12">
             <h2>
-              Login
+              Acesso Administrativo
             </h2>
             <b-jumbotron>
               <b-form @submit.stop.prevent="onSubmit">
                 <b-form-group id="fieldsetHorizontal"
                           class="label"
                           horizontal
-                          :label-cols="4"
+                          :label-cols="2"
                           breakpoint="md"
-                          label="Enter Email">
+                          label="Email">
                   <b-form-input id="email" v-model.trim="$v.form.email.$model" :state="validateState('email')"
                     aria-describedby="input-1-live-feedback"></b-form-input>
                     <b-form-invalid-feedback
                       id="input-1-live-feedback"
                       class="input-feedback"
-                    >Email must be valid.</b-form-invalid-feedback>
+                    >Email deve ser válido.</b-form-invalid-feedback>
                 </b-form-group>
                 <b-form-group id="fieldsetHorizontal"
                           class="label"
                           horizontal
-                          :label-cols="4"
+                          :label-cols="2"
                           breakpoint="md"
-                          label="Enter Password">
+                          label="Senha">
                   <b-form-input type="password" id="password" v-model.trim="$v.form.password.$model" :state="validateState('password')"
                      aria-describedby="input-2-live-feedback"></b-form-input>
                    <b-form-invalid-feedback
                     id="input-2-live-feedback"
                     class="input-feedback"
-                  >Password is required.</b-form-invalid-feedback>  
+                  >A senha é obrigatória.</b-form-invalid-feedback>  
                 </b-form-group>
-                <b-button class="mx-2 btn-center" type="submit" variant="primary">Login</b-button>
+                <b-button class="mx-2 btn-center" type="submit" variant="primary">Entrar</b-button>
               </b-form>
             </b-jumbotron>
           </b-col>
         </b-row>
       </b-card-text>
       <template v-slot:footer>
-        <em>numpakbis-admin</em>
+        <em>BusãoSTM</em>
       </template>
     </b-card>
 

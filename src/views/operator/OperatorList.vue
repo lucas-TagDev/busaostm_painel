@@ -13,7 +13,7 @@
           <b-row class="my-1">
             <b-col>
             </b-col>
-            <b-col  >
+            <b-col>
             <b-form-group
                 label="Filtro"
                 label-cols-sm="3"
