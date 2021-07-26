@@ -77,12 +77,21 @@ export default {
       isConnected: false,
       socketMessage: [],
       datacollection: null,
+      /*
       fields: [
         { key: 'operator',label: 'Operator', sortable: true, 'class': 'text-left' },
         { key: 'plat',label: 'Plat Nomor', 'class': 'text-left' },
         { key: 'rute',label: 'Rute', 'class': 'text-left' },
         { key: 'halte',label: 'Tujuan', sortable: true, 'class': 'text-left' },
         { key: 'estimasi',label: 'Estimasi', 'class': 'text-left' },
+        //{ key: 'actions',label: 'Action', 'class': 'text-center' }
+      ]*/
+      fields: [
+        { key: 'operator',label: 'Motorista', sortable: true, 'class': 'text-left' },
+        { key: 'plat',label: 'Placa', 'class': 'text-left' },
+        { key: 'rute',label: 'Rota', 'class': 'text-left' },
+        { key: 'halte',label: 'Ponto', sortable: true, 'class': 'text-left' },
+        { key: 'estimasi',label: 'Estimativa', 'class': 'text-left' },
         //{ key: 'actions',label: 'Action', 'class': 'text-center' }
       ],
       buses: [],
